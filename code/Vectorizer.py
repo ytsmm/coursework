@@ -1,14 +1,11 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
-import pandas as pd
-
+"""
+Р¤СѓРЅРєС†РёСЏ РїСЂРµРѕР±СЂР°Р·СѓРµС‚ СЃР»РѕРІР° Рє С‡РёСЃР»РѕРІРѕРјСѓ С‚РёРїСѓ СЃ РїРѕРјРѕС‰СЊСЋ РјРµС‚РѕРґР° tfidf
+@:param type: list text - РґРІСѓРјРµСЂРЅС‹Р№ РјР°СЃСЃРёРІ С‚РµРєСЃС‚РѕРІ СЃС‚Р°С‚РµР№, РїСЂРѕС€РµРґС€РёС… РјРѕСЂС„РѕР»РѕРіРёС‡РµСЃРєСѓСЋ РѕР±СЂР°Р±РѕС‚РєСѓ
+@:return type: {csr_matrix} tfidf - СЂР°Р·СЂРµР¶РµРЅРЅР°СЏ РјР°С‚СЂРёС†Р° РІРµСЃРѕРІ СЃР»РѕРІ; type: list{str}, allWords - СЃС‚СЂРѕРєРѕРІС‹Р№ РјР°СЃСЃРёРІ С‚РµСЂРјРёРЅРѕРІ
+"""
 def Vectorizing(text):
-    # text - массив строковых данных, элементы которого представляют строку с преобразованными словами статей
     vectorizer = TfidfVectorizer()
-
     tfidf = vectorizer.fit_transform(text)
-    fn = vectorizer.get_feature_names()
-
-    #for col in tfidf.nonzero()[1]:
-        #print(fn[col], " ", tfidf[0, col])
-    # tfidf - матрица всех слов и их веса
-    return tfidf, fn
+    allWords = vectorizer.get_feature_names()
+    return tfidf, allWords
