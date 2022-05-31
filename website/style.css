@@ -4,16 +4,11 @@
 }
 
 body {
-    font-family: "Noto Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-family: "Times New Roman", Times, serif;   
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #c12f0b;
+.container {
+    margin: 24px 48px;
 }
 
 header {
@@ -21,23 +16,42 @@ header {
     padding: 24px 48px;
 }
 
+a {
+    color: #185488;
+}
+
+a:hover {
+    color: #05223a;
+}
+
 .headerLink {
     color: white;
     padding: 5px;
-    font-size: ;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.headerLink:hover {
-    border-bottom: 1px solid white;
-    color: white;
+.topics {
+    font-size: 24px;
+}
+
+.topics>li {
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.topics a {
+    text-decoration: none;
 }
 
 .cluster {
-    margin: 24px 48px;
+    margin-top: 24px;
 }
 
 .cluster h2 {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: normal;
 }
 
@@ -47,11 +61,11 @@ header {
 }
 
 .cluster li:first-child {
-    margin-top: 24px;
+    margin-top: 14px;
 }
 
-.articlesBtn {
-    padding: 10px 20px;
+.clusterBtn {
+    padding: 7px 20px;
     background: #185488;
     color: white;
     border: none;
@@ -59,7 +73,7 @@ header {
     cursor: pointer;
 }
 
-.articlesBtn:hover {
+.clusterBtn:hover {
     background: white;
     color: #185488;
     border: 1px solid #185488;

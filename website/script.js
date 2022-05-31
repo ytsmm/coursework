@@ -1,66 +1,89 @@
 $(document).ready(function(){
-    $.getJSON('base.json', function(data){
-        let number = []
-        for (let i = 0; i < Object.keys(data.cluster).length; i++) {
-            if (!(data.cluster[i] in number)) {
-                number.push(data.cluster[i]);
-            }
-        }
-
-        let articleDiv = document.querySelector("div.articles");
-   
-        for (let i = 0; i < number.length; i++) {
-            let div = document.createElement('div');
-            div.classList.add('cluster');
-            let list = document.createElement('ol');    
-            let btn = document.createElement('button');
-            btn.classList.add('articlesBtn');
-            btn.textContent = 'Show more';
-            btn.addEventListener('click', ShowArticles);
-
-            let count = 0;
-            for (let j = 0; j < Object.keys(data.doi).length; j++) {               
-                if (data.cluster[j] == i) {                  
-                    let li = document.createElement('li');
-
-                    let link = document.createElement('a');
-                    link.href = 'https://doi.org/' + data.doi[j];
-                    link.target = '_blank';
-                    link.textContent = data.title[j];
-                    if (count >= 10) {
-                        li.classList.add('hide');
-                    }
-
-                    li.append(link);
-                    list.append(li);     
-                    count += 1;              
-                }                          
-            }
-            div.appendChild(list);
-            div.appendChild(btn);
-            articleDiv.appendChild(div);
-        }
-    });
-});
-
-$(document).ready(function(){
     $.getJSON('keywords.json', function(data){
-        let artEl = document.querySelectorAll('.cluster');
-        for (let i = 0; i < Object.keys(data.keywords).length; i++) {
-            console.log(artEl[i]);
+        // Число кластеров
+        const number = Object.keys(data.keywords).length;
+        // Находим div.articles в html
+        let articleDiv = document.querySelector(".articles"); 
+        let topicsDiv = document.querySelector(".topics");
+        // Создаем div.cluster согласно числу кластеров
+        for (let i = 0; i < number; i++) {
+            let cluster = document.createElement('div');
+            cluster.classList.add('cluster');
+
+            // Добавляем в каждый кластер ключевые слова         
             let hEl = document.createElement('h2');
-            hEl.textContent = data.keywords[i];
-            artEl[i].prepend(hEl);
-        }
-   
+            hEl.id = 'cluster' + (i + 1);
+            let keywordList = ((data.keywords[i])[0]).toUpperCase() 
+                + data.keywords[i].slice(1);
+            hEl.textContent = keywordList;
+            cluster.appendChild(hEl);
+            
+            let linkEl = document.createElement('a');
+            linkEl.textContent = data.keywords[i];
+            linkEl.classList.add('topicLink');
+            linkEl.href = '#' + hEl.id;
+            let topicDiv = document.createElement('li');
+            topicDiv.append(linkEl);
+            topicsDiv.appendChild(topicDiv);
+
+            // Добавляем список
+            let list = document.createElement('ol');   
+            $(document).ready(function(){        
+                $.getJSON('base.json', function(data){
+                    const len = Object.keys(data.authors).length;
+                    let count = 0;
+                    for (let j = 1; j < len; j++) {
+                        if (data.cluster[j] == i) {               
+                            let li = document.createElement('li');
+                            if (!(data.year[j] == "NULL")) {
+                                li.textContent = data.authors[j] + "."
+                            }
+                                
+                            if (!(data.authors[j] == "NULL")) {
+                                li.textContent += " (" + data.year[j] + ")."
+                            }
+                                
+                            if (!(data.title[j] == "NULL")) {
+                                li.textContent += " " + data.title[j] + '. '
+                            }                             
+                            li.textContent += "Supercomputing Frontiers and Innovations"
+                            if (!(data.number[j] == "NULL")) {
+                                li.textContent += ', ' + data.number[j] + '.'
+                            }                              
+                            else {
+                                li.textContent += "."
+                            } 
+                            li.textContent += " doi: ";
+                            let link = document.createElement('a');
+                            link.textContent = data.doi[j];
+                            link.href = 'https://doi.org/' + data.doi[j];
+                            link.target = '_blank';
+                            if (count >= 5) {
+                                li.classList.add('hide');
+                            }  
+                            li.appendChild(link);
+                            list.appendChild(li);     
+                            count += 1;              
+                        } 
+                    }
+                })
+            });
+            cluster.appendChild(list);
+            let btn = document.createElement('button');
+            btn.classList.add('clusterBtn');
+            btn.textContent = 'More';
+            btn.addEventListener('click', ShowArticles);
+            cluster.appendChild(btn);  
+            articleDiv.appendChild(cluster);   
+        }            
     });
 });
 
 function ShowArticles() {
-    if (this.textContent === 'Show less') {
-        this.textContent = 'Show more';
-    } else if (this.textContent === 'Show more') {
-        this.textContent = 'Show less';
+    if (this.textContent === 'Less') {
+        this.textContent = 'More';
+    } else if (this.textContent === 'More') {
+        this.textContent = 'Less';
     }
 
     this.parentElement.querySelectorAll('li:nth-child(n+11)')
