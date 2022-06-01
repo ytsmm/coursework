@@ -42,17 +42,22 @@ def Analyzer():
                 count += 1
     except FileNotFoundError:
         print("File doesn't exist")
+        return
 
     for i in range(len(myData)):
         myData[i] = ' '.join(myData[i])
     # Векторизация данных
-    myVect, listOfWords = Vectorizer.Vectorizing(myData)
+    try:
+        myVect, listOfWords = Vectorizer.Vectorizing(myData)
+    except:
+        print("Check your file for the correct filling")
+        return
     # Определение числа кластеров
-    clusNumber = Clusterizator.ClusterNumber(myVect.toarray(), count)
+    clusNumber = Clusterizator.ClusterNumber(myVect, count)
     # Кластеризация данных
-    myClus = Clusterizator.Clusterizator(myVect.toarray(), clusNumber)
+    myClus = Clusterizator.Clusterizator(myVect, clusNumber)
     # Нахождения ключевых слов для кластера
-    keyWords = KeywordsGenerator.KeysGenerator(myVect.toarray(), myClus, listOfWords, clusNumber)
+    keyWords = KeywordsGenerator.KeysGenerator(myVect, myClus, listOfWords, clusNumber)
     csvfile.close()
     # Запись в файл
     Res = pd.DataFrame(
