@@ -1,0 +1,233 @@
+Doi;Keywords
+10.14529/jsfi160201;InfiniBand, Congestion control, Link-by-link flow control, Cascading rate reductions, Dynamic parameter setting
+10.14529/jsfi160202;Combinatorial problems, parallel algorithm, GPU accelerators, CUDA, Langford problem
+10.14529/jsfi160203;Floating point, Unum computing, Computer arithmetic, Energy efficiency, Valid arithmetic
+10.14529/jsfi160204
+10.14529/jsfi160205;scalable monitoring visualization, situational screen, supercomputer state visualization, joint monitoring sources, supercomputer dashboard, HPC instrument control board
+10.14529/jsfi160206;NVIDIA CUDA, Feynmans continual integrals method, few-body nuclei
+10.14529/jsfi160301;hybrid computing, Xeon Phi, Particle-in-Cell
+10.14529/jsfi160302;KAUST, Remote Job Submission, Middleware, MATLAB, VASP, MedeA, ADF
+10.14529/jsfi160303;file system, performance, modeling I/O, artificial neural networks
+10.14529/jsfi160304;Scientific Data, Compression, Analyzing Data Properties
+10.14529/jsfi160305;domain decomposition, ultrasound simulation, spectral methods, GPU, FFT, local Fourier basis
+10.14529/jsfi160306;MPI, HCA, Communication Pattern Offloading, High Performance Networks, Communication Library
+10.14529/jsfi160307;AlgoWiki, algorithm properties, Cholesky decomposition, memory access locality, dynamic characteristics, scalability
+10.14529/jsfi160308
+10.14529/jsfi160401;in situ rendering, parallel systems, point-based data, CPU and GPU clusters
+10.14529/jsfi160402;In Situ, High Performance Computing, Visualization, Extract Database, SENSEI, Libsim, Workflow
+10.14529/jsfi160403;HPC, in situ, visualization, live rendering, petascale, particle-in-cell, C++11, CUDA, Alpaka, FOSS
+10.14529/jsfi160404;Scientific Visualization, In Situ Methods, Data Staging Methods, Data Reductions, High Performance Computing
+10.14529/jsfi160405;performance monitoring, sensor properties, sampling rate, CPU usage, CPU load level
+10.14529/jsfi160406;integral equations, acoustics, seismics, MPI, OpenMP
+10.14529/jsfi170101;runtime scheduling, dataflow scheduling, distributed computing, massively parallel computing, multicore processors, hardware accelerators, virtualization, systolic arrays
+10.14529/jsfi170102;workflows, scientific applications, Big Data
+10.14529/jsfi170103;runtime system, parallel computing, scalability, survey, High Performance Computing
+10.14529/jsfi170104;xSDK, Extreme-scale scientific software development kit, numerical libraries, software interoperability, sustainability
+10.14529/jsfi170105;Turbulence Simulations, Particle-In-Cell, Portability, HPC
+10.14529/jsfi170201;Precision Medicine, ggcINDIA, Beacon Network, South Asian Genome, Genome Data Sharing
+10.14529/jsfi170202;insect flight, free flight, general-purpose computing on graphics processing units (GPGPU), computational fluid dynamics (CFD), flapping-wing aerodynamics
+10.14529/jsfi170203;High-Performance Computing, parallel processing, exascale, non-von Neumann architecture, cellular architecture
+10.14529/jsfi170204;MPI, optical communications, exascale, HPC, security, router, memory wall, fault resilience
+10.14529/jsfi170205;HPCG, superscalar, sparse matrix, partial differential equation, memory wall, HPC
+10.14529/jsfi170206;computer arithmetic, energy-efficient computing, floating point, posits, LINPACK, linear algebra, neural networks, unum computing, valid arithmetic
+10.14529/jsfi170207
+10.14529/jsfi170301;high-performance computing, resilience, fault tolerance, design patterns
+10.14529/jsfi170302;in-situ visualization, volume rendering, runtime steering, strong scaling, performance evaluation
+10.14529/jsfi170303;DSVR, ICON, in-situ visualization, visualization framework
+10.14529/jsfi170304;in situ, visualization, vocal fold, systems biology simulation, agent based modeling, tissue inflammation and repair, computational steering
+10.14529/jsfi170305;Performance analysis, architecture comparison, seismic processing profiling, powerusage analysis, application behavior analysis
+10.14529/jsfi170306;task-based scheduling, data reuse, data locality, cache model
+10.14529/jsfi170307;Content Addressable Memory, Associative Processing, In-Storage Processing, Memristors
+10.14529/jsfi170401;data centric architecture, SHARP, collectives, MPI
+10.14529/jsfi170402;data reduction, compression, lossy, climate data
+10.14529/jsfi170403;Load Balancing, Resource Management, Dynamic Variables, Communication Delay, Distributed System
+10.14529/jsfi170404;performance events, PMC, energy predictive models, Likwid, PAPI
+10.14529/jsfi170405;cloud service, virtualization, supercomputer modeling in nanotechnology problems, visualization
+10.14529/jsfi180101;AlgoWiki, parallel structure, algorithms properties, Top500 methodology, problems, methods, algorithms, implementations, computing platforms
+10.14529/jsfi180102;reproducibility, nondeterminism, fault-tolerance, exascale, message-passing, shared memory, proxy application, HPC benchmarks
+10.14529/jsfi180103;storage hierarchy, file system, storage system, I/O interface, data format
+10.14529/jsfi180104;JUQUEEN , IBM Blue Gene/Q, extreme scaling, application codes, High-Q Club
+10.14529/jsfi180105;NVRAM, 3D XPoint, SCM, workflows, resource scheduling
+10.14529/jsfi180106;machine learning, computer architecture, data science, parameter engineering, performance prediction, scheduling
+10.14529/jsfi180201;HPC, supercomputer, parallel computing, efficiency analysis, job state
+10.14529/jsfi180202;system of linear inequalities, iterative algorithm, projection algorithm, Cimmino algorithm, parallel computation model, bulk synchronous farm, scalability estimation, speedup, parallel efficiency, cluster computing systems
+10.14529/jsfi180203;QR algorithm, LU Matrix Inversion, Batched Solver, Matrix solver, GPU Batched Solver
+10.14529/jsfi180204;aggregation equations, parallel algorithms, low-rank matrices, convolution
+10.14529/jsfi180205;Incompressible turbulent flow, Generalized sparse matrix vector multiplication, Multiple right-hand sides, Ensemble averaging
+10.14529/jsfi180206;Unified Coarse Grained Model, UNRES force field, molecular dynamics simulations, fine-grained parallelization, coarse-grained parallelization
+10.14529/jsfi180207;Mathematical Modeling, Detonation, Deflagration, RDE, Ramjet
+10.14529/jsfi180208;astrophysical flows, black hole accretion, hydrodynamics, numerical simulations, general relativistic MHD
+10.14529/jsfi180301;high performance computing, parallel computing, exascale, non-von Neumann architecture
+10.14529/jsfi180302;magnetotelluric, three-dimensional inversion, supercomputer, geophysics
+10.14529/jsfi180303;neuraminidases, molecular dynamics, long-timescale trajectories, GPU, co-design
+10.14529/jsfi180304;GPU, nested OMP, MPI, seismic imaging
+10.14529/jsfi180305;chromosome conformation capture, chromosome structure, computational modeling, mouse chromosome 18
+10.14529/jsfi180306;chromosomal instability, ionizing radiation, delayed chromosomal damage, prediction, dose response
+10.14529/jsfi180307;Discrete Element Method, geological faults, CUDA, statistical simulation
+10.14529/jsfi180308;quantum qubit, quantum computer, quantum-mechanical calculations, spin
+10.14529/jsfi180309;polymers, networks, atomistic molecular dynamics, mesoscale simulations, multiscale simulations
+10.14529/jsfi180310;high performance computing, dendrimer, dendritic brush, Poly-L-lysine
+10.14529/jsfi180311;graph algorithms, NEC SX-ACE, vector computing, data-intensive applications
+10.14529/jsfi180312;Born-Oppenheimer molecular dynamic, free binding energy, parallel algorithms, calixarene
+10.14529/jsfi180313;CFDM, thin film properties, dispersion forces, local polarizability
+10.14529/jsfi180314;graphene, transition metals, quantum chemistry, density functional
+10.14529/jsfi180315;flux splitting, two-phase compressible flow, complete Riemann solver, finite-volume method, hyperbolic equations, supercomputer computations
+10.14529/jsfi180316;DFT, LaAlO 3/SrTiO 3heterostructure, defects, magnetic properties
+10.14529/jsfi180317;optimization, CFD, Blended Wing Body, nacelle, power plant
+10.14529/jsfi180318;supercomputer, ultrasound tomography, nondestructive testing, inverse problems
+10.14529/jsfi180319;molecular dynamics, multiscale simulation, reverse mapping, poly(lactic acid)
+10.14529/jsfi180320;regional climate model, long-term simulations, supercomputer technologies, extreme wind, urban climate, urban precipitation, COSMO
+10.14529/jsfi180321;ultrasound tomography, coefficient inverse problem, spatial resolution, supercomputer, GPU
+10.14529/jsfi180322;Boltzmann kinetic equation, S-model, rarefied, high-speed, unstructured
+10.14529/jsfi180323;parallel algorithms, numerical simulation methods, fluid dynamics, vortex methods, parachute aerodynamics
+10.14529/jsfi180324;Navier-Stokes equations, parallel computation, modelling, Cabaret method
+10.14529/jsfi180325;thin film structure, deposition process, molecular dynamic simulation, silicon dioxide
+10.14529/jsfi180326;docking, protein-ligand, global minimum, force field, quantum-chemical method
+10.14529/jsfi140101;Exascale, Resilience, Fault-tolerance techniques
+10.14529/jsfi140102;Parallel architectures, runtime system, hardware-software co-design
+10.14529/jsfi140103;numerical weather prediction, climate modeling, hybrid computing, programming models
+10.14529/jsfi140104;communication complexity, hierarchical low-rank approximation, fast multipole methods, H-matrices, sparse solvers
+10.14529/jsfi140105;hardware accelerators, dense linear algebra, task superscalar scheduling
+10.14529/jsfi140106;Parallel I/O, Exascale, data center, storage expenses
+10.14529/jsfi180401;load balancing, landscape analysis, mind evolutionary computation, global optimization
+10.14529/jsfi180402;energy consumption, performance analysis and optimization, cross-platform analysis, energy consumption analysis, multispectral image processing, nighttime remote sensing
+10.14529/jsfi180403;hpc, power consumption, modelling, exascale, cross-architectural, neural networks
+10.14529/jsfi180404;portable performance engineering, point set registration, autotuning with code generation, combinatorial optimization
+10.14529/jsfi180405;quantum chemistry, multi-scale approaches, parallel algorithms, fluorescent proteins
+10.14529/jsfi180406;cfd, particle-based model, biorheology, thrombosis, program profiling
+10.14529/jsfi180407;molecular dynamics, gromacs, clustering, affinity propagation, protein docking, biomolecules
+10.14529/jsfi180408;Parallel CFD, immersed boundary method, unstructured mesh, turbulent flow, MPI+OpenMP
+10.14529/jsfi180409;density functional theory, parallel calculation, cluster, gold, dispersion correction, relativistic effects, computational chemistry
+10.14529/jsfi180410;acetylcholinesterase, Alzheimers disease, molecular docking, atomic charges
+10.14529/jsfi180411;molecular docking, non-steroidal anti-inflammatory drugs, ibuprofen, dopamine, cyclooxygenase
+10.14529/jsfi180412;magnetohydrodynamics, galactic dynamics, galactic magnetic field, parallelization
+10.14529/jsfi180413;regional climate model, domain size, simulations, parallelization
+10.14529/jsfi180414;molecular dynamics, tubulin, microtubule, plastocyanin-cytochrome f
+10.14529/jsfi180415;nonlinear Schrodinger equation, fast parallel algorithm, fully conservative numerical scheme, motion integral
+10.14529/jsfi190101;seismic imaging, multi-arrival seismic migration, HPC, aiwlib
+10.14529/jsfi190102;ion irradiation, multiwall carbon nanotube, defects, molecular dynamics, sputtering, thermal mechanism
+10.14529/jsfi190103;Perona{Malik method, nonlinear Schr odinger equation, fast parallel algorithm, fully conservative numerical scheme
+10.14529/jsfi190104;molecular dynamics, coarse-grained models, tubulin, elastic network model, highthroughput simulations, parallel simulations
+10.14529/jsfi190105;HPC, supercomputer, monitoring, notications, cloud, operation, administration, EasyOP
+10.14529/jsfi190106;"performance evaluation, legacy code, numerical uid dynamics simulation, vectorization, hyperplane method, red-black method"
+10.14529/jsfi190107;Big Data, visualization, containerization, cloud computing, Xen, KVM, Docker, orchestration
+10.14529/jsfi190201;supercomputer, peak performance, sustained performance, eciency, parallel computing, supercomputer center, software tools, scalability, monitoring, system level data, data analytics
+10.14529/jsfi190202;Global Systems Science, HPC benchmarks, parallel applications, e-Infrastructure evaluation
+10.14529/jsfi190203;performance, I/O, le-access pattern, interference, benchmarking
+10.14529/jsfi190204;high performance computing, FPGA, lattice QCD, Dirac operator evaluation
+10.14529/jsfi190205;"oating-point, multiply-add, risc-v, hardware-design, verication, uvm, synthesis, asic, gf22fdx, ieee754"
+10.14529/jsfi190206;incompressible Navier{Stokes equations, parallel computing, spectral methods, time stepping
+10.14529/jsfi190207;"stencil computations, parallel algorithm, GPU, CUDA, Rooine model"
+10.14529/jsfi190208;nanobers, carbon nanotubes, distinct element method, parallel computing
+10.14529/jsfi190301;performance modeling, performance analysis, stencils, single-node, multi-core, ECM, Roofline, memory hierarchy, cache effects
+10.14529/jsfi190302;docking, protein–ligand, global optimization, tensor train, force field, quantum– chemical method
+10.14529/jsfi190303;compiler, directive, GPU, OpenACC, OpenMP, automatic port
+10.14529/jsfi190304;LSTM, Intel Xeon, GEMM, compute-bound kernel, bandwidth-bound kernel
+10.14529/jsfi190305;HPC, vector architecture, cache, skewed-associativity
+10.14529/jsfi190401;DRAM, main memory, low-power mode, address-mapping scheme, energy consumption
+10.14529/jsfi190402;multi-scale modelling, surrogate model, computational science, heterogeneous multiscale computing, high performance computing, exascale
+10.14529/jsfi190403;CFD, supercomputer, unstructured mesh, data structure, MPI, OpenMP, OpenCL
+10.14529/jsfi190404;HPC, neural networks, deep learning frameworks, distributed training
+10.14529/jsfi200101;data reduction, lossless compression, lossy compression, dimensionality reduction, adaptive approaches, deduplication, in situ, recomputation, scientific data set
+10.14529/jsfi200102;pipeline software, software development, K computer, message passing interface, genome analysis, exome analysis
+10.14529/jsfi200103;enterprise information systems, parallel computing, supercomputing technologies, big data, machine learning, scalability, event stream, analysis, digital economy
+10.14529/jsfi200104;communication, congestion, locality, MPI, multi-core, NUMA, process mapping
+10.14529/jsfi200105;performance analysis, debugging, GPU computing
+10.14529/jsfi200106;reproducibility, replicability, transparency, high-performance computing, molecular dynamics, in situ analytics
+10.14529/jsfi200201;performance reduction, hardware costs, reconfigurable computer system, parallel applications development, information graph
+10.14529/jsfi200202;HPC, distributed computing and systems, InfiniBand, federated supercomputing, geographically distributed workflows, ADIOS, HPX, High Performance Parallex
+10.14529/jsfi200203;workflow, heterogeneous storage, data-driven, climate/weather
+10.14529/jsfi200204;microarchitecture comparison, Intel, AMD, ARM, IBM, performance evaluation, performance modeling, analytic modeling, execution-cache-memory model
+10.14529/jsfi200205;GPGPU computing, DSL, weather and climate, code optimization, compiler, performance portability
+10.14529/jsfi200301;ultra-large virtual screening, molecular docking, drug discovery, COVID-19, structure-based drug design, CADD, computer aided drug design, AutoDock, grey wolf optimization, cloud computing
+10.14529/jsfi200302;drug discovery, big data, artificial intelligence, HPC
+10.14529/jsfi200303;SARS-CoV2 main protease, QM/MM, molecular docking, molecular dynamics, covalent inhibitor
+10.14529/jsfi200304;SARS-CoV-2 main protease, QM/MM MD, GPU-accelerated algorithms, substrate activation
+10.14529/jsfi200305;docking, global optimization, quantum docking, inhibitors, CADD, SARS–CoV–2, COVID–19, Mpro
+10.14529/jsfi200306;drug discovery, chemical-pharmacological space, big data analysis, similarity assessment, machine learning, molecular modeling, virtual screening, HIV/AIDS, SAVI, COVID-19
+10.14529/jsfi200401;Thermal plasma flows, SOR method, MPI, OpenMP, Performance tuning, SXACE, SX-Aurora TSUBASA
+10.14529/jsfi200402;parallel computing, performance analysis, in situ processing, computational fluid dynamics
+10.14529/jsfi200403;quantum annealing, quantum computer, job-shop scheduling, combinatorial optimization
+10.14529/jsfi200404;vector computers, NVIDIA GPUs, graph algorithms, graph framework, VGL, CUDA, optimisation
+10.14529/jsfi200405;molecular dynamics, coarse grain, tubulin, microtubule, Ndc80
+10.14529/jsfi200406;high-performance computing, enthalpy of formation, quantum-chemical calculations, high-enthalpy compounds, IR spectra of gaseous molecules, combined CBS-4M method, combined G4 method
+10.14529/jsfi210101
+10.14529/jsfi210102;wind forecasting, time series, wind time series, deep learning, CNN, convolutional networks, forecastability
+10.14529/jsfi210103;deep learning, convolutional neural networks, high-resolution images, variableshape images, HPC benchmarks
+10.14529/jsfi210104;High-Performance Computing, deep learning, profiling, performance characterization, memory consumption
+10.14529/jsfi210105;high performance computing (HPC), accelerator, software stack, open source hardware
+10.14529/jsfi210106;stream processing, fog computing, cloud computing, scientific workflow, microworkflow, IoT
+10.14529/jsfi140201;parallel efficiency, curve-fitting, exascale computing, analysis and prediction
+10.14529/jsfi140202;adaptive prediction, energy consumption, power consumption, energy capping, power capping, AEPCP model, energy measurement, node scaling, EtS prediction, HPC
+10.14529/jsfi140203
+10.14529/jsfi140204
+10.14529/jsfi140205;Fault tolerance, checkpoint/restart, lossless/lossy compression, error bound, data clustering
+10.14529/jsfi140206;Big Data, Supercomputing, Extreme Computing and Big Data Convergence, Data Intensive Computing, Non-Volatile Memory
+10.14529/jsfi140207;parallel programming, performance tools, extreme scale computing
+10.14529/jsfi210201;seismic redatuming, tile low-rank approximations, matrix-vector multiplication, load balancing, high bandwidth memory, NEC SX-Aurora TSUBASA
+10.14529/jsfi210202;application porting, performance optimization, molecular docking, AutoDock, vector computing, SX-Aurora
+10.14529/jsfi210203;SX-Aurora TSUBASA, OS Offload, VH Call, VEO, vectorization ratio
+10.14529/jsfi210204;HPC, OpenMP, offloading, reverse offloading, vector computing, performance
+10.14529/jsfi210205;SX-Aurora TSUBASA, optimization, vector computing, power efficiency, Himeno benchmark, HPCG
+10.14529/jsfi210206;vector computers, graph algorithms, graph framework, VGL, optimisation
+10.14529/jsfi210207;turbine simulation code, MPI, OpenMP, hybrid parallelization, vector supercomputer, load balance
+10.14529/jsfi210301;systems of linear algebraic equations, elliptic equations, algebraic multigrid methods, iterative refinement, mixed precision calculations
+10.14529/jsfi210302;big data processing, fog computing, scheduling, cloud computing, edge computing, Internet of Things
+10.14529/jsfi210303;linear programming, solution validator, VaLiPro, parallel algorithm, cluster computing system, BSF-skeleton
+10.14529/jsfi210304;monitoring, supercomputers, performance monitoring, review
+10.14529/jsfi210305;supercomputer, high-performance computing, administration, survey, monitoring, performance
+10.14529/jsfi210306;NVIDIA GPU, NEC SX-Aurora TSUBASA, liquid crystals, HPC, co-design, performance optimization, Monte Carlo, cubic lattice
+10.14529/jsfi210401;computational fluid dynamics, turbulent flows, scale-resolving simulation, hybrid RANS-LES approach, CPU+GPU, MPI+OpenMP+OpenCL
+10.14529/jsfi210402;numerical weather prediction, global atmosphere model, computational efficiency, I/O optimization
+10.14529/jsfi210403;climate model, seasonal hindcasts, North Atlantic Oscillation, Eurasian snow cover, teleconnection
+10.14529/jsfi210404;spatial data, information systems, databases, workflow, directed multigraph, processing pipeline, climate research
+10.14529/jsfi210405;turbulence, direct numerical simulation, ARM, supercomputing
+10.14529/jsfi210406;scalability, supercomputer, AlgoWiki, parallel structure, problems, methods, algorithms, implementations, computing platforms
+10.14529/jsfi210407;shallow water, supercomputer modeling, heterogeneous computing systems, MPI, OpenMP, CUDA
+10.14529/jsfi210408;high performance pmemd program, enhanced molecular dynamics simulations, PLUMED plugin integration, metadynamics, CUDA, GPU
+10.14529/jsfi210409;atmospheric boundary layer, numerical simulation of turbulence, urban canopy, scalar turbulent transport
+10.14529/jsfi220101;sea dynamics modeling, variational data assimilation, observations, sea surface temperature
+10.14529/jsfi220102;parallel computations, numerical weather prediction, mesoscale models, urban air quality, MPI
+10.14529/jsfi220103;land surface model, soil, river network, MPI, OpenMP
+10.14529/jsfi220104;machine learning, rainfall forecast, extreme events
+10.14529/jsfi220105;data assimilation, artificial neural network, shallow water equations, parallel processing
+10.14529/jsfi220106;ultrasound tomography, coefficient inverse problem, gradient method, numerical simulation
+10.14529/jsfi220201;molecular dynamics, quantum mechanics/molecular mechanics, QM/MM MD, GPU-accelerated algorithms, N-acetylaspartylglutamate synthetase, enzyme-substrate complexes, reaction intermediates
+10.14529/jsfi220202;metallo- β-lactamase, boronate inhibitors, MD, QM/MM MD, quantum theory of atoms in molecules (QTAIM), GPU-accelerated algorithms
+10.14529/jsfi220203;molecular dynamics, slow-growth thermodynamic integration method, DPS protein, DNA stabilization, DNA-DPS binding free energy
+10.14529/jsfi220204;computational modeling, molecular dynamics, quantum mechanics/molecular mechanics, protein-oxygen interaction, flavin-dependent enzymes
+10.14529/jsfi220205;molecular modeling, molecular dynamics simulations, nucleosomes, protein-DNA interactions, monovalent cations, sodium, potassium
+10.14529/jsfi220206;moonlighting protein, penicillin acylase engineering, β-lactam antibiotics resistance, β-lactamase design, metadynamics
+10.14529/jsfi220207;influenza, neuraminidase, 430-cavity, inhibitor, anthrapyrazole
+10.14529/jsfi150201;programming models, ultrascale, runtimes, extreme scale
+10.14529/jsfi150202;MPI, MPI sustainability, programming models, resilience, data management, MPI applications
+10.14529/jsfi150203;high performance computing, fault tolerance, algorithm-based fault tolerance, extreme data, evolutionary algorithm, ultrascale computing system
+10.14529/jsfi150204;energy measurement, power measurement, data acquisition tools, infrastructure management, ultrascale computing
+10.14529/jsfi150205;energy-awareness, energy-efficient algorithms, ultrascale computing
+10.14529/jsfi150206;energy and power measurement, data acquisition tools, energy modeling, scheduling, applications, heterogeneous infrastructures, ultrascale computing
+10.14529/jsfi140301
+10.14529/jsfi140302;memory systems, scaling, DRAM, flash, non-volatile memory, QoS, reliability
+10.14529/jsfi140303;adaptive routing, InfiniBand, high-radix topology, network simulation
+10.14529/jsfi140304;parallel computing, heterogeneous computing, data partitioning
+10.14529/jsfi140305;Co-design, hybrid supercomputers, Particle-In-Cell method, Godunov method, GPU
+10.14529/jsfi150101;algorithm structure, resource of parallelism, parallel computing, efficiency, performance, supercomputers, scalability, data locality, encyclopedia of algorithmic features
+10.14529/jsfi150102;sustainable ultrascale systems, impact factors on applications, multiscale and multiphysics applications, computational modelling
+10.14529/jsfi150103;Dense Matrix Computations, Dynamic Runtime Systems, Software Productivity, Non-Uniform Memory Access, Data Locality, Work Stealing, High Performance Computing
+10.14529/jsfi150104;"biological big data; parallelized optimization; TH-2; sequence alignment; SNP detection; whole genome re-sequencing"
+10.14529/jsfi150301;scientific visualization, high-performance computing, Lagrangian flow analysis
+10.14529/jsfi150302;Genomics, Cloud-Computing, InfiniBand, Trans-continental, Virtualization, SRIOV, OpenStack, HPC
+10.14529/jsfi150303;Cloud-Computing, InfiniBand, Trans-continental, Benchmarking, Virtualization, SRIOV, BeeGFS, OpenStack, HPC
+10.14529/jsfi150304;L-CSC, HPL, Linpack, Green500, GPU, Energy Efficiency, HPC, LQCD
+10.14529/jsfi150305;ParalleX, HPX, exascale, performance measurement, adaptive runtimes
+10.14529/jsfi150306;scientific visualization, exascale, performance portability, data parallel primitives
+10.14529/jsfi150307;energy efficiency, sparse graphs, embedded SoCs, FPGAs
+10.14529/jsfi150401;live programming, particle-in-cell, JIT-compilation
+10.14529/jsfi150402;supercomputer interconnects, big data, exascale computing, graph theory, topology of graphs, classes of graphs, graph generation
+10.14529/jsfi150403;quantum chemistry, fragmentation, multi-scale approaches, parallel algorithms
+10.14529/jsfi150404;distributed mesh, polyhedral mesh, parallel framework, numerical modeling
+10.14529/jsfi150405;Programming models, runtime, HPC, GPU, multicore, dense linear algebra
+10.14529/jsfi160101;Message passing interface, fault tolerant MPI, NR-MPI, Application-level Checkpoint/Restart
+10.14529/jsfi160102;FPGA, reconfigurable computer systems, immersion liquid cooling system
+10.14529/jsfi160103;supercomputer, GPU cluster, wave-tomography imaging, coefficient inverse problems, scalar wave equation, breast cancer
+10.14529/jsfi160104;hot liquid cooling, cold plates, energy efficiency
+10.14529/jsfi160105;data compression, storage system, climate data, cost efficiency
