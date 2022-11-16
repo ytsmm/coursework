@@ -33,7 +33,9 @@ for filename in os.listdir("pdf"):
                 textKeywords = textKeywords.replace('ﬃ', 'ffi')
                 textKeywords = textKeywords.replace('ﬃ', 'ffi')
                 textKeywords = textKeywords.replace('ﬄ', 'ffl')
+                textKeywords = textKeywords.replace('\x0c', 'fi')
                 textKeywords = textKeywords.replace('’', '')
+                textKeywords = textKeywords.replace('–', '-')
                 dataFile.append(textKeywords)
             if dataFile:
                 data.append(dataFile)

@@ -108,19 +108,19 @@ Doi;Keywords
 10.14529/jsfi190102;ion irradiation, multiwall carbon nanotube, defects, molecular dynamics, sputtering, thermal mechanism
 10.14529/jsfi190103;Perona{Malik method, nonlinear Schr odinger equation, fast parallel algorithm, fully conservative numerical scheme
 10.14529/jsfi190104;molecular dynamics, coarse-grained models, tubulin, elastic network model, highthroughput simulations, parallel simulations
-10.14529/jsfi190105;HPC, supercomputer, monitoring, notications, cloud, operation, administration, EasyOP
+10.14529/jsfi190105;HPC, supercomputer, monitoring, notifications, cloud, operation, administration, EasyOP
 10.14529/jsfi190106;"performance evaluation, legacy code, numerical uid dynamics simulation, vectorization, hyperplane method, red-black method"
 10.14529/jsfi190107;Big Data, visualization, containerization, cloud computing, Xen, KVM, Docker, orchestration
 10.14529/jsfi190201;supercomputer, peak performance, sustained performance, eciency, parallel computing, supercomputer center, software tools, scalability, monitoring, system level data, data analytics
 10.14529/jsfi190202;Global Systems Science, HPC benchmarks, parallel applications, e-Infrastructure evaluation
-10.14529/jsfi190203;performance, I/O, le-access pattern, interference, benchmarking
+10.14529/jsfi190203;performance, I/O, file-access pattern, interference, benchmarking
 10.14529/jsfi190204;high performance computing, FPGA, lattice QCD, Dirac operator evaluation
-10.14529/jsfi190205;"oating-point, multiply-add, risc-v, hardware-design, verication, uvm, synthesis, asic, gf22fdx, ieee754"
+10.14529/jsfi190205;"oating-point, multiply-add, risc-v, hardware-design, verification, uvm, synthesis, asic, gf22fdx, ieee754"
 10.14529/jsfi190206;incompressible Navier{Stokes equations, parallel computing, spectral methods, time stepping
 10.14529/jsfi190207;"stencil computations, parallel algorithm, GPU, CUDA, Rooine model"
-10.14529/jsfi190208;nanobers, carbon nanotubes, distinct element method, parallel computing
+10.14529/jsfi190208;nanofibers, carbon nanotubes, distinct element method, parallel computing
 10.14529/jsfi190301;performance modeling, performance analysis, stencils, single-node, multi-core, ECM, Roofline, memory hierarchy, cache effects
-10.14529/jsfi190302;docking, protein–ligand, global optimization, tensor train, force field, quantum– chemical method
+10.14529/jsfi190302;docking, protein-ligand, global optimization, tensor train, force field, quantum- chemical method
 10.14529/jsfi190303;compiler, directive, GPU, OpenACC, OpenMP, automatic port
 10.14529/jsfi190304;LSTM, Intel Xeon, GEMM, compute-bound kernel, bandwidth-bound kernel
 10.14529/jsfi190305;HPC, vector architecture, cache, skewed-associativity
@@ -143,7 +143,7 @@ Doi;Keywords
 10.14529/jsfi200302;drug discovery, big data, artificial intelligence, HPC
 10.14529/jsfi200303;SARS-CoV2 main protease, QM/MM, molecular docking, molecular dynamics, covalent inhibitor
 10.14529/jsfi200304;SARS-CoV-2 main protease, QM/MM MD, GPU-accelerated algorithms, substrate activation
-10.14529/jsfi200305;docking, global optimization, quantum docking, inhibitors, CADD, SARS–CoV–2, COVID–19, Mpro
+10.14529/jsfi200305;docking, global optimization, quantum docking, inhibitors, CADD, SARS-CoV-2, COVID-19, Mpro
 10.14529/jsfi200306;drug discovery, chemical-pharmacological space, big data analysis, similarity assessment, machine learning, molecular modeling, virtual screening, HIV/AIDS, SAVI, COVID-19
 10.14529/jsfi200401;Thermal plasma flows, SOR method, MPI, OpenMP, Performance tuning, SXACE, SX-Aurora TSUBASA
 10.14529/jsfi200402;parallel computing, performance analysis, in situ processing, computational fluid dynamics
